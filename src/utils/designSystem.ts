@@ -21,44 +21,44 @@ export const SPACING = {
 
 // Brand Colors - Strict Token System
 export const COLORS = {
-  // Primary Purple
+  // Primary Purple #6C4CF1
   purple: {
-    50: '#F5F3FF',
+    50: '#EDE9FE',
     100: '#EDE9FE',
     200: '#DDD6FE',
     300: '#C4B5FD',
     400: '#A78BFA',
-    500: '#8B5CF6',
-    600: '#7C3AED',
-    700: '#6D28D9',
-    800: '#5B21B6',
-    900: '#4C1D95',
+    500: '#6C4CF1',
+    600: '#5739D4',
+    700: '#4C1D95',
+    800: '#4C1D95',
+    900: '#3B0764',
   },
-  // Secondary Orange
+  // Secondary Cyan #00C2FF
+  cyan: {
+    50: '#E0F7FF',
+    100: '#E0F7FF',
+    200: '#BAE6FD',
+    300: '#7DD3FC',
+    400: '#38BDF8',
+    500: '#00C2FF',
+    600: '#0284C7',
+    700: '#0369A1',
+    800: '#075985',
+    900: '#0C4A6E',
+  },
+  // Accent Orange #FF8A00
   orange: {
-    50: '#FFF7ED',
+    50: '#FFF3E0',
     100: '#FFEDD5',
     200: '#FED7AA',
     300: '#FDBA74',
     400: '#FB923C',
-    500: '#F97316',
+    500: '#FF8A00',
     600: '#EA580C',
     700: '#C2410C',
     800: '#9A3412',
     900: '#7C2D12',
-  },
-  // Accent Blue
-  blue: {
-    50: '#EFF6FF',
-    100: '#DBEAFE',
-    200: '#BFDBFE',
-    300: '#93C5FD',
-    400: '#60A5FA',
-    500: '#3B82F6',
-    600: '#2563EB',
-    700: '#1D4ED8',
-    800: '#1E40AF',
-    900: '#1E3A8A',
   },
   // Success Green
   green: {
@@ -72,6 +72,19 @@ export const COLORS = {
     700: '#15803D',
     800: '#166534',
     900: '#14532D',
+  },
+  // Warning Amber
+  amber: {
+    50: '#FFFBEB',
+    100: '#FEF3C7',
+    200: '#FDE68A',
+    300: '#FCD34D',
+    400: '#FBBF24',
+    500: '#F59E0B',
+    600: '#D97706',
+    700: '#B45309',
+    800: '#92400E',
+    900: '#78350F',
   },
   // Error Red
   red: {
@@ -88,87 +101,87 @@ export const COLORS = {
   },
   // Neutrals
   neutral: {
-    50: '#FAFAFA',
-    100: '#F5F5F5',
-    200: '#E5E5E5',
-    300: '#D4D4D4',
-    400: '#A3A3A3',
-    500: '#737373',
-    600: '#525252',
-    700: '#404040',
-    800: '#262626',
-    900: '#171717',
+    50: '#F9FAFB',
+    100: '#F3F4F6',
+    200: '#E5E7EB',
+    300: '#D1D5DB',
+    400: '#9CA3AF',
+    500: '#6B7280',
+    600: '#4B5563',
+    700: '#374151',
+    800: '#1F2937',
+    900: '#111827',
   },
 } as const;
 
-// Typography Scale - Poppins
+// Typography Scale - Inter
 export const TYPOGRAPHY = {
   // Display
   display1: {
-    size: 'text-7xl',      // 72px
+    size: 'text-[64px]',   // Hero H1
     weight: 'font-bold',
-    lineHeight: 'leading-[1.1]',
+    lineHeight: 'leading-tight',
   },
   display2: {
-    size: 'text-6xl',      // 60px
+    size: 'text-[48px]',   // Page H1
     weight: 'font-bold',
-    lineHeight: 'leading-[1.1]',
+    lineHeight: 'leading-tight',
   },
   // Headings
   h1: {
-    size: 'text-5xl',      // 48px
+    size: 'text-[48px]',
     weight: 'font-bold',
     lineHeight: 'leading-tight',
   },
   h2: {
-    size: 'text-4xl',      // 36px
-    weight: 'font-bold',
+    size: 'text-[32px]',   // Section H2
+    weight: 'font-semibold',
     lineHeight: 'leading-tight',
   },
   h3: {
-    size: 'text-3xl',      // 30px
-    weight: 'font-bold',
+    size: 'text-[20px]',   // Card H3
+    weight: 'font-semibold',
     lineHeight: 'leading-snug',
   },
   h4: {
-    size: 'text-2xl',      // 24px
+    size: 'text-xl',
     weight: 'font-semibold',
     lineHeight: 'leading-snug',
   },
   h5: {
-    size: 'text-xl',       // 20px
+    size: 'text-lg',
     weight: 'font-semibold',
     lineHeight: 'leading-normal',
   },
   h6: {
-    size: 'text-lg',       // 18px
+    size: 'text-base',
     weight: 'font-semibold',
     lineHeight: 'leading-normal',
   },
   // Body
   bodyLarge: {
-    size: 'text-lg',       // 18px
+    size: 'text-lg',
     weight: 'font-normal',
     lineHeight: 'leading-relaxed',
   },
   body: {
-    size: 'text-base',     // 16px
+    size: 'text-[16px]',   // Body
     weight: 'font-normal',
     lineHeight: 'leading-relaxed',
   },
   bodySmall: {
-    size: 'text-sm',       // 14px
+    size: 'text-[14px]',   // Small
     weight: 'font-normal',
     lineHeight: 'leading-relaxed',
   },
   // Caption
   caption: {
-    size: 'text-xs',       // 12px
+    size: 'text-[12px]',   // Caption
     weight: 'font-normal',
     lineHeight: 'leading-normal',
   },
   captionBold: {
-    size: 'text-xs',       // 12px
+    size: 'text-[12px]',
     weight: 'font-semibold',
     lineHeight: 'leading-normal',
   },
