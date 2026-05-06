@@ -1,0 +1,8 @@
+/* ══════════════════════════════════════════════════════════════════
+   EVENTRA TYPOGRAPHY — Font Imports (product spec: Inter primary)
+   ══════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* JetBrains Mono — Monospace for code, IDs, timestamps */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
